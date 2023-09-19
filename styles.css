@@ -41,6 +41,12 @@ body {
     margin-top: 30px;
 }
 
+.social-icons .hover:hover {
+    margin-top: 28px;
+    color: black;
+}
+
+
 .social-icons a {
     text-decoration: none;
     color: #333;
