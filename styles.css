@@ -101,6 +101,26 @@ span{
     color: #7844E7;
 }
 
+#goToTopButton {
+    display: none; /* Hide the button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #f5f5f5;
+    color: #000;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 20px 20px;
+}
+
+#goToTopButton:hover {
+    background-color: #7844E7;
+    color: #fff;
+}
+
+
 
 /* Hide the scrollbar but allow scrolling */
 .right-side::-webkit-scrollbar {
@@ -141,13 +161,6 @@ body::-webkit-scrollbar {
     scrollbar-color: #f1f1f1 #888; /* Track and thumb colors */
   }
   
-
-
-
-
-
-
-
 /* Media query for making left side on top in mobile and tablet views */
 @media (max-width: 767px) {
     .container {
