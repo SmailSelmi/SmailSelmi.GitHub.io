@@ -45,7 +45,7 @@ body {
 }
 
 .social-icons .hover:hover {
-    color: black;
+    color: #7844E7;
 }
 
 
@@ -81,7 +81,7 @@ body {
 h2 {
     font-weight: bold;
     font-size: 18px;
-    color: #333;
+    color: #131313;
 }
 
 span{
@@ -91,15 +91,16 @@ span{
 }
 
 .sub{
-    font-weight: 500;
+    font-weight: bold;
     font-style: normal;
-    color: #333;
+    color: #131313;
 }
-/* this is to hide scroll bar from right side section */
 
 .section a{
     text-decoration: none;
+    color: #7844E7;
 }
+
 
 /* Hide the scrollbar but allow scrolling */
 .right-side::-webkit-scrollbar {
