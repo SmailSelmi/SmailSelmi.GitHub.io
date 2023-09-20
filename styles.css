@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
 .container {
@@ -10,16 +11,17 @@ body {
 }
 
 .left-side {
-    width: 35%;
-    background-color: #f2f2f2;
+    width: 32%;
+    background-color: whitesmoke;
     text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     overflow: auto;
-    padding-top: 7%;
+    padding-top: 8%;
 }
+
 
 .left-side img {
     width: 200px;
@@ -33,8 +35,9 @@ body {
 }
 
 .left-side p {
-    color: #777;
+    color: #555;
     margin: 5px;
+    font-weight: 400;
 }
 
 .social-icons {
@@ -42,7 +45,6 @@ body {
 }
 
 .social-icons .hover:hover {
-    margin-top: 28px;
     color: black;
 }
 
@@ -64,11 +66,15 @@ body {
 
 .section p{
     line-height: 1.5em;
+    max-width: 100%;
+    word-wrap: break-word;
+    color: #444;
 }
 
 .ed li{
     padding: 5px;
     line-height: 1.5em;
+    color: #444;
     
 }
 
@@ -78,10 +84,62 @@ h2 {
     color: #333;
 }
 
+span{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+}
 
+.sub{
+    font-weight: 500;
+    font-style: normal;
+    color: #333;
+}
+/* this is to hide scroll bar from right side section */
 
+.section a{
+    text-decoration: none;
+}
 
+/* Hide the scrollbar but allow scrolling */
+.right-side::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  .right-side::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  /* For Firefox */
+  .right-side-hide-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
 
+  /* this is to hide scroll bar from all page */
+
+/* Customize the appearance of the scrollbar but allow scrolling */
+body::-webkit-scrollbar {
+    width: 0px; /* Adjust the width as needed */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent; /* Track color */
+    border-radius: 55px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: wheat; /* Thumb color */
+    border-radius: 55px;
+  }
+  
+  /* For Firefox */
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: #f1f1f1 #888; /* Track and thumb colors */
+  }
+  
 
 
 
@@ -105,10 +163,11 @@ h2 {
     }
 
     .right-side {
-        width: 100%;
+        width: auto;
         margin-left: 0;
         order: 2;
         overflow: scroll;
+        padding: 10px 10px 10px 24px;
     }
 
     .left-side img {
