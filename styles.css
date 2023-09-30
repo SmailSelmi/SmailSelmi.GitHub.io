@@ -42,6 +42,7 @@ body {
 
 .social-icons {
     margin-top: 30px;
+    width: auto;
 }
 
 .social-icons .hover:hover {
@@ -120,6 +121,23 @@ span{
     background-color: #f5f5f5;
     color: #7844E7;
 }
+
+/* styles.css */
+.contact-button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 0px 0px;
+    border: 0px solid #; /* Outline style */
+    text-decoration: none;
+    color: #444; /* Button text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.contact-button:hover {
+    background-color: transparent; /* Background color on hover */
+    color: #7844E7; /* Text color on hover */
+}
+
 
 
 
